@@ -1,0 +1,15 @@
+.links-container {
+ display: flex;
+ flex-flow: column nowrap;
+ justify-content: center;
+ align-items: center;
+ font-family: sans-serif;
+}
+
+ul {
+ list-style: none;
+}
+
+ul li {
+ margin: 1rem 0;
+}

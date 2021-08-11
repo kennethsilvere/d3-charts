@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./scatter-plot-styles.css" />
+  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <div id="tooltip" class="tooltip">
+        <div class="tooltip-date">
+          <span id="date"></span>
+        </div>
+        <div class="tooltip-humidity">
+          Humidity: <span id="humidity"></span>
+        </div>
+        <div class="tooltip-dew-point">
+          Dew Point: <span id="dew-point"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./scatter-plot.js"></script>
+  </body>
+</html>
